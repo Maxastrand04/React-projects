@@ -1,0 +1,28 @@
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.2s; /* Add a smooth transition on hover */
+  }
+  
+  a {
+    display: inline-block;
+    padding: 10px; /* Adjust as needed */
+    text-decoration: none;
+    background-color: #f0f0f0; /* Background color for better visibility */
+    border: 1px solid #ccc; /* Border for better visibility */
+    transition: transform 0.2s; /* Add the same transition as li */
+  }
+  
+  li:hover {
+    transform: scale(1.2); /* Enlarge the li element on hover */
+  }
+  
+  a:hover {
+    transform: scale(1.2); /* Enlarge the text within the anchor on hover */
+  }
