@@ -1,9 +1,11 @@
 import React from 'react'
-import './CustomButton.css'
+import '../navBar.css'
 
 export default function CustomButton(props){
 
     return(
-        <a href={props.link} className={props.specClass}> {props.text} </a>
-    )
+        <>
+            {props.content && <a href={props.link} className={props.specClass}>{props.content}</a>}
+        </>
+        )
 }
