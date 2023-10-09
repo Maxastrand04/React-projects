@@ -5,7 +5,7 @@ import './NavBar.css'
 const buttonsArray = [
     {
         text: "meny",
-        link: "../test.html"
+        link: "https://order.openpos.tech/vallentunastenugnsbageri/"
     },
     {
         text: "öppettider",
@@ -13,7 +13,7 @@ const buttonsArray = [
     },
     {
         text: "butiker",
-        link: "../test.html"
+        link: "../stores.html"
     },
     {
         text: "fika/tårta",
@@ -37,7 +37,7 @@ const buttonsArray = [
     }
 ]
 
-export function Nav(){
+export function NavBar(){
     const [scrolling, setScrolling] = useState(false);
     const [navButtons, setNavButtons] = useState( buttonsArray.map((customButton, index) => {
 
